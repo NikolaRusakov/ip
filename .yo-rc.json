@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "cz.rusakov.ideaproject",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.3.4",
+    "applicationType": "microservice",
+    "baseName": "IP",
+    "packageName": "cz.rusakov.ideaproject",
+    "packageFolder": "cz/rusakov/ideaproject",
+    "serverPort": "8880",
+    "authenticationType": "oauth2",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "consul",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "MjVkZmE3Mjk2MjYwY2RjY2FjYzdmNzE0MTkwNzg3NGU2ZGM4YzlmNDhhMjlmYWZlODJmM2M4NmIzNDNiZmNkMTUxOWQ1MjVjNmU1YjgyOGEwYjU5ZTMzOWU0YjI4NWUzMzRkNDVlN2QyZDdjODlhMzdkNjNhNTMyZGI3MTExYzY=",
+    "enableTranslation": true,
+    "languages": [
+      "en",
+      "cs",
+      "ru",
+      "sk"
+    ],
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
